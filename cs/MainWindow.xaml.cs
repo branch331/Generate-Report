@@ -45,7 +45,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             }
 
             worker.GenerateReport(passwordBox.Password);
-
+            //StatusBox.Text = "Generating Report...";
         }
     }
 }

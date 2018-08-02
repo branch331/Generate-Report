@@ -61,14 +61,15 @@ namespace NationalInstruments.Examples.GenerateMAXReport
                     }
                 }
             );
-            worker.RunWorkerAsync();
-            /*
-            while (AddingNewEven
+            worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(delegate(object o, RunWorkerCompletedEventArgs e)
             {
-                Status = "Generating Report...";
+                Status = "Complete!";
+
+                
             }
-            Status = "";
-          */   
+        );
+            Status = "Generating Report...";
+            worker.RunWorkerAsync();
         }
     }
 }
