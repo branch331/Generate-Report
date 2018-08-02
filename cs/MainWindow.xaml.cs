@@ -17,7 +17,8 @@ namespace NationalInstruments.Examples.GenerateMAXReport
         private void OnGenerateReportClick(object sender, RoutedEventArgs e)
         {
             worker.GenerateReport(passwordBox.Password);
-            //System.Environment.Exit(0);
+            
+
         }
 
         private void OnOverwriteClick(object sender, RoutedEventArgs e)
