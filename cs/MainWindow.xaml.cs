@@ -16,6 +16,24 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 
         private void OnGenerateReportClick(object sender, RoutedEventArgs e)
         {
+
+            if (ReportTypeBox.Text == "XML")
+            {
+                worker.reportType = NationalInstruments.SystemConfiguration.ReportType.Xml;
+            }
+            else if (ReportTypeBox.Text == "HTML")
+            {
+                worker.reportType = NationalInstruments.SystemConfiguration.ReportType.Html;
+            }
+            else if (ReportTypeBox.Text == "Technical Support")
+            {
+                worker.reportType = NationalInstruments.SystemConfiguration.ReportType.TechnicalSupportZip;
+            }
+            else
+            {
+                worker.reportType = NationalInstruments.SystemConfiguration.ReportType.Xml;
+            }
+
             worker.GenerateReport(passwordBox.Password);
             //System.Environment.Exit(0);
         }

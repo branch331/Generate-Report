@@ -50,15 +50,19 @@ Note: New Alias entries that are blank or the same as <Bold>Current Alias</Bold>
         <!-- need to figure out if 1. combobox items display and 2. how to get those to use w/ worker -->
         
         
-        <ComboBox x:Name="ReportType" IsEditable="True" Text="Report Type (XML)" Margin="12" Grid.Row="2" HorizontalAlignment="Left" Width="200">
+        <ComboBox x:Name="ReportTypeBox" IsEditable="True" Text="Report Type (XML)" Margin="12" Grid.Row="2" HorizontalAlignment="Left" Width="200">
             <ComboBoxItem >XML</ComboBoxItem>
             <ComboBoxItem >HTML</ComboBoxItem>
             <ComboBoxItem >Technical Support</ComboBoxItem>
         </ComboBox>
-        
 
-        <!-- For below, make sure to disable it when toggled.-->
-        <Button Margin="12" Grid.Row="2" Content="Overwrite?" Height="30" Click="OnOverwriteClick" IsDefault="True" TabIndex="3" HorizontalAlignment="Center" Width="120" />
+        <TextBox Grid.Row="3" Height="20" Width="400" Text="{Binding FilePath, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="12,10,0,190"></TextBox>
         
+        <!-- For below, make sure to disable it when toggled.-->
+        <!--<Button Margin="12" Grid.Row="2" Content="Overwrite?" Height="30" Click="OnOverwriteClick" IsDefault="True" TabIndex="3" HorizontalAlignment="Center" Width="120" />
+        -->
+        
+        <ToggleButton Grid.Row="2" Grid.Column="1" IsChecked="{Binding Overwrite}" Height="40" Width="100" >Overwrite?</ToggleButton>
+            
     </Grid>
 </Window>

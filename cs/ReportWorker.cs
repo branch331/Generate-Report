@@ -30,6 +30,18 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             set;
         }
 
+        public string FilePath
+        {
+            get;
+            set;
+        }
+
+        public bool Overwrite
+        {
+            get;
+            set;
+        }
+
         public ReportType reportType
         {
             get;
@@ -69,7 +81,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
                     try
                     {
                         SystemConfiguration.SystemConfiguration session = new SystemConfiguration.SystemConfiguration(Target, Username, password);
-                        session.GenerateMAXReport(0, System.Environment.CurrentDirectory + "testReport.XML", false); //0 - xml, 1-html, 2-technicalsupportzip
+                        session.GenerateMAXReport(reportType, FilePath, Overwrite); //0 - xml, 1-html, 2-technicalsupportzip
                     }
                     catch (SystemConfigurationException ex)
                     {
