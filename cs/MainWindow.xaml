@@ -16,18 +16,18 @@
         </Grid.RowDefinitions>
 
         <Expander Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Header="Operating Instructions" IsExpanded="True" Margin="0,0,0,20">
-            <TextBlock xml:space="preserve" TextWrapping="Wrap" Padding="10,4,0,0"><Bold>Overview:</Bold> Changes one or more hardware device aliases in the system specified.
-<Bold>Requirements:</Bold> NI System Configuration, NI-DAQmx and/or NI-VISA
+            <TextBlock xml:space="preserve" TextWrapping="Wrap" Padding="10,4,0,0"><Bold>Overview:</Bold> Generates a MAX Report in either .xml, .html, or .zip format.
+<Bold>Requirements:</Bold> NI System Configuration, NI MAX
 <Bold>Instructions:</Bold>
-1. Select the <Bold>Target</Bold> that contains the devices. Enter <Bold>User Name</Bold> and <Bold>Password</Bold> if necessary.
-2. Press <Bold>Show Hardware</Bold>.
-3. Once the table is filled with devices, type in the new alias for a particular device in the <Bold>New Alias</Bold> column.
-4. Press <Bold>Save</Bold> to submit the new alias.
-
-Note: New Alias entries that are blank or the same as <Bold>Current Alias</Bold> for a particular device will not be renamed.</TextBlock>
+1. Select the <Bold>Target</Bold>. Enter <Bold>User Name</Bold> and <Bold>Password</Bold> if necessary.
+2. Determine <Bold>Report Type</Bold>. 
+3. Enter <Bold>File Path</Bold> for report to be stored.
+    <Bold>Note:</Bold> File path MUST end with .xml for XML files, .html for HTML files, and .zip for Technical Report.
+4. Click on <Bold>Generate Report</Bold> to generate a MAX report.
+            </TextBlock>
         </Expander>
 
-        <Grid Grid.Row="1" IsEnabled="{Binding CanBeginShowHardware}">
+        <Grid Grid.Row="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -45,24 +45,18 @@ Note: New Alias entries that are blank or the same as <Bold>Current Alias</Bold>
             <PasswordBox Name="passwordBox" Grid.Row="1" Grid.Column="2" Margin="8,0,0,0" TabIndex="2"/>
         </Grid>
 
-        <Button Margin="12" Grid.Row="2" Content="Generate Report" Height="30" Click="OnGenerateReportClick" IsDefault="True" TabIndex="3" HorizontalAlignment="Right" Width="200" />
+        <TextBlock Grid.Row="2" HorizontalAlignment="Left" Text="File Path" Margin="0,5,0,195" Width="53"/>
+        <TextBox Grid.Row="2" Height="20" Width="400" Text="{Binding FilePath, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="0,25,0,175"></TextBox>
         
-        <!-- need to figure out if 1. combobox items display and 2. how to get those to use w/ worker -->
-        
-        
-        <ComboBox x:Name="ReportTypeBox" IsEditable="True" Text="Report Type (XML)" Margin="12" Grid.Row="2" HorizontalAlignment="Left" Width="200">
+        <ComboBox x:Name="ReportTypeBox" IsEditable="True" Text="Report Type (XML)" Margin="0,60,0,130" Grid.Row="2" HorizontalAlignment="Left" Height ="30" Width="200">
             <ComboBoxItem >XML</ComboBoxItem>
             <ComboBoxItem >HTML</ComboBoxItem>
             <ComboBoxItem >Technical Support</ComboBoxItem>
         </ComboBox>
 
-        <TextBox Grid.Row="3" Height="20" Width="400" Text="{Binding FilePath, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="12,10,0,190"></TextBox>
+        <ToggleButton Grid.Row="2" Margin="230,60,230,130" IsChecked="{Binding Overwrite}" Height="30" Width="100" >Overwrite?</ToggleButton>
         
-        <!-- For below, make sure to disable it when toggled.-->
-        <!--<Button Margin="12" Grid.Row="2" Content="Overwrite?" Height="30" Click="OnOverwriteClick" IsDefault="True" TabIndex="3" HorizontalAlignment="Center" Width="120" />
-        -->
+        <Button Margin="0,60,0,130" Grid.Row="2" Content="Generate Report" Height="30" Click="OnGenerateReportClick" IsDefault="False" TabIndex="3" HorizontalAlignment="Right" Width="200" />
         
-        <ToggleButton Grid.Row="2" Grid.Column="1" IsChecked="{Binding Overwrite}" Height="40" Width="100" >Overwrite?</ToggleButton>
-            
     </Grid>
 </Window>

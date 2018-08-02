@@ -38,11 +38,5 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             
 
         }
-
-        private void OnOverwriteClick(object sender, RoutedEventArgs e)
-        {
-
-        }
-
     }
 }
