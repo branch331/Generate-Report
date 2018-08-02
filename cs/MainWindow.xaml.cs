@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using Microsoft.Win32;
 
 namespace NationalInstruments.Examples.GenerateMAXReport
 {
@@ -13,6 +14,15 @@ namespace NationalInstruments.Examples.GenerateMAXReport
         }
 
         private ReportWorker worker;
+
+        private void OnBrowseClick(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog fileExplorer = new OpenFileDialog();
+            fileExplorer.Title = "Choose a report directory and filename";
+            fileExplorer.CheckFileExists = false;
+            fileExplorer.ShowDialog();
+            filePathBox.Text = fileExplorer.FileName; 
+        }
 
         private void OnGenerateReportClick(object sender, RoutedEventArgs e)
         {
@@ -35,7 +45,6 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             }
 
             worker.GenerateReport(passwordBox.Password);
-            
 
         }
     }

@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NationalInstruments.Examples.GenerateMAXReport</RootNamespace>
-    <AssemblyName>NationalInstruments.Examples.RenameAliases</AssemblyName>
+    <AssemblyName>NationalInstruments.Examples.GenerateMAXReport</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>

@@ -32,6 +32,12 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             set;
         }
 
+        public string Status
+        {
+            get;
+            set;
+        }
+
         public ReportType reportType
         {
             get;
@@ -55,7 +61,14 @@ namespace NationalInstruments.Examples.GenerateMAXReport
                     }
                 }
             );
-        worker.RunWorkerAsync();
+            worker.RunWorkerAsync();
+            /*
+            while (AddingNewEven
+            {
+                Status = "Generating Report...";
+            }
+            Status = "";
+          */   
         }
     }
 }
