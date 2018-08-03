@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace NationalInstruments.Examples.GenerateMAXReport
+namespace NationalInstruments.Examples.RenameAliases
 {
     /// <summary>
     /// Interaction logic for App.xaml

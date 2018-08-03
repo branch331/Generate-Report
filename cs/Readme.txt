@@ -1,14 +1,15 @@
 ﻿Rename Aliases Example
 
 Overview:
-This example demonstrates how to change the aliases of connected devices. The filter limits these devices to devices supported by NI-DAQmx or NI-VISA.
+Generates a MAX Report in either .xml, .html, or .zip format.
 
 Requirements:
-NI System Configuration, NI-DAQmx and/or NI-VISA
+NI System Configuration, NI MAX
 
 Instructions:
-1. Run the example.
-2. Enter the RT target and the user name and password, if necessary.
-3. Press "Show Hardware".
-4. Once the table is filled with devices, type in the new alias for a particular device in the New Alias column.
-5. Press "Save" to submit the new alias.
+1. Select the Target. Enter User Name and Password if necessary.
+2. Determine Report Type.
+3. Enter File Path for report to be stored.
+Note: File path MUST end with .xml for XML files, .html for HTML files, and .zip for Technical Report.
+4. Click on Generate Report to generate a MAX report.
+

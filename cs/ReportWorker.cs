@@ -6,8 +6,12 @@ using NationalInstruments.SystemConfiguration;
 
 namespace NationalInstruments.Examples.GenerateMAXReport
 {
-    class ReportWorker
+    class ReportWorker : INotifyPropertyChanged
     {
+        private string status;
+        private bool exception;
+        public event PropertyChangedEventHandler PropertyChanged;
+
         public string Target
         {
             get;
@@ -19,6 +23,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             get;
             set;
         }
+
 
         public string FilePath
         {
@@ -34,8 +39,15 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 
         public string Status
         {
-            get;
-            set;
+            get { return status; }
+            set
+            {
+                if (status != value)
+                {
+                    status = value;
+                    NotifyPropertyChanged("Status");
+                }
+            }
         }
 
         public ReportType reportType
@@ -44,32 +56,50 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             set;
         }
 
+        private void worker_RunWorkerCompleted(object o, RunWorkerCompletedEventArgs e)
+        {
+            if (!exception)
+            {
+                Status = "Complete!";
+            }
+            else
+            {
+                Status = "Error Generating Report.";
+            }
+        }
+
         public void GenerateReport(string password)
         {
             BackgroundWorker worker = new BackgroundWorker();
             worker.DoWork += new DoWorkEventHandler(delegate(object o, DoWorkEventArgs args)
-                {
-                    try
-                    {
-                        SystemConfiguration.SystemConfiguration session = new SystemConfiguration.SystemConfiguration(Target, Username, password);
-                        session.GenerateMAXReport(reportType, FilePath, Overwrite); //0 - xml, 1-html, 2-technicalsupportzip
-                    }
-                    catch (SystemConfigurationException ex)
-                    {
-                        string errorMessage = string.Format("GenerateMAXReport threw a System Configuration Exception.\n\nError Code: {0:X}\n{1}", ex.ErrorCode, ex.Message);
-                        MessageBox.Show(errorMessage, "System Configuration Exception");
-                    }
-                }
-            );
-            worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(delegate(object o, RunWorkerCompletedEventArgs e)
             {
-                Status = "Complete!";
-
-                
+                try
+                {
+                    SystemConfiguration.SystemConfiguration session = new SystemConfiguration.SystemConfiguration(Target, Username, password);
+                    session.GenerateMAXReport(reportType, FilePath, Overwrite); //0 - xml, 1-html, 2-technicalsupportzip
+                }
+                catch (SystemConfigurationException ex)
+                {
+                    string errorMessage = string.Format("GenerateMAXReport threw a System Configuration Exception.\n\nError Code: {0:X}\n{1}", ex.ErrorCode, ex.Message);
+                    MessageBox.Show(errorMessage, "System Configuration Exception");
+                    exception = true;
+                }
             }
-        );
+            );
+            worker.RunWorkerCompleted += worker_RunWorkerCompleted;
             Status = "Generating Report...";
+            exception = false;
             worker.RunWorkerAsync();
         }
+    
+
+        protected virtual void NotifyPropertyChanged(string propertyName)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+
     }
 }

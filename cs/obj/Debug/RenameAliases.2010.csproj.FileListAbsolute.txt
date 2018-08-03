@@ -1,0 +1,2 @@
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\SystemConfiguration\RenameAliases\cs\bin\Debug\NationalInstruments.Examples.RenameAliases.exe.config
+C:\Users\brand\Desktop\test\cs\bin\Debug\NationalInstruments.Examples.RenameAliases.exe.config

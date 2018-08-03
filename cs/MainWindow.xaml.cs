@@ -21,7 +21,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             fileExplorer.Title = "Choose a report directory and filename";
             fileExplorer.CheckFileExists = false;
             fileExplorer.ShowDialog();
-            filePathBox.Text = fileExplorer.FileName; 
+            filePathBox.Text = fileExplorer.FileName;
         }
 
         private void OnGenerateReportClick(object sender, RoutedEventArgs e)

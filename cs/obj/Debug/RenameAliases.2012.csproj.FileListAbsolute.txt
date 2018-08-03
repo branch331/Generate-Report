@@ -1,1 +1,0 @@
-C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\bin\Debug\NationalInstruments.Examples.RenameAliases.exe.config
