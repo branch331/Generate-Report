@@ -13,3 +13,15 @@ C:\Users\brand\Desktop\test\cs\obj\Debug\NationalInstruments.Examples.GenerateMA
 C:\Users\brand\Documents\GitHub\Generate-Report\cs\bin\Debug\NationalInstruments.Examples.GenerateMAXReport.exe.config
 C:\Users\brand\Documents\GitHub\Generate-Report\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport.exe
 C:\Users\brand\Documents\GitHub\Generate-Report\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport.pdb
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\bin\Debug\NationalInstruments.Examples.GenerateMAXReport.exe.config
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport.exe
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport.pdb
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\bin\Debug\NationalInstruments.Examples.GenerateMAXReport.exe
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\bin\Debug\NationalInstruments.Examples.GenerateMAXReport.pdb
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\obj\Debug\GenerateMAXReport.2012.csprojResolveAssemblyReference.cache
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\obj\Debug\MainWindow.g.cs
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\obj\Debug\App.g.cs
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport_MarkupCompile.cache
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport_MarkupCompile.lref
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\obj\Debug\MainWindow.baml
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport.g.resources
