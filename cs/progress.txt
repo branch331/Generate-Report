@@ -6,3 +6,10 @@
 next steps:
 -test on other computer since sys config driver is broken (labview example also doesnt make report)
 -remove commented sections if works
+
+*tested on same machine after restart, works so far for HTML. Remove comments and then merge w/ master
+
+-works with different report types, just need to follow w/ test plan
+-removed commented code
+-see if there's a better way to decide between reporttypes, instead of the nested if statements in ongeneratereportclick
+
