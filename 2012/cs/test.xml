@@ -1,0 +1,2135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<max_report title="MAX Configuration Report" timeStamp="8/18/2018 11:20:46 AM" backText="Back to top" stylesheet="embedded">
+<max_heading2>MAX Summary</max_heading2>
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#My System" openNewPage="false">My System</max_link>
+<max_list format="nobullet">
+<max_listitem>
+
+Data Neighborhood
+<max_list format="nobullet">
+<max_listitem>
+NI-DAQmx Tasks
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#MyVoltageOutTask" openNewPage="false">MyVoltageOutTask</max_link>
+</max_listitem>
+<max_listitem>
+<max_link name="#MyVoltageOutTask_0" openNewPage="false">MyVoltageOutTask_0</max_link>
+</max_listitem>
+<max_listitem>
+<max_link name="#MyVoltageTask" openNewPage="false">MyVoltageTask</max_link>
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+
+Devices and Interfaces
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#2: NI PXIe-6361 &quot;PXI1Slot2&quot;" openNewPage="false">2: NI PXIe-6361 "PXI1Slot2"</max_link>
+</max_listitem>
+<max_listitem>
+Network Devices
+</max_listitem>
+<max_listitem>
+<max_link name="#NI cDAQ-9171 &quot;cDAQ2&quot;" openNewPage="false">NI cDAQ-9171 "cDAQ2"</max_link>
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#1: NI 9219 &quot;cDAQ2Mod1&quot;" openNewPage="false">1: NI 9219 "cDAQ2Mod1"</max_link>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+<max_link name="#NI cDAQ-9178 &quot;cDAQ1&quot;" openNewPage="false">NI cDAQ-9178 "cDAQ1"</max_link>
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#1: NI 9236 &quot;cDAQ1Mod1&quot;" openNewPage="false">1: NI 9236 "cDAQ1Mod1"</max_link>
+</max_listitem>
+<max_listitem>
+<max_link name="#2: NI 9213 &quot;cDAQ1Mod2&quot;" openNewPage="false">2: NI 9213 "cDAQ1Mod2"</max_link>
+</max_listitem>
+<max_listitem>
+<max_link name="#3: NI 9472 &quot;cDAQ1Mod3&quot;" openNewPage="false">3: NI 9472 "cDAQ1Mod3"</max_link>
+</max_listitem>
+<max_listitem>
+<max_link name="#4: NI 9263 &quot;cDAQ1Mod4&quot;" openNewPage="false">4: NI 9263 "cDAQ1Mod4"</max_link>
+</max_listitem>
+<max_listitem>
+<max_link name="#7: NI 9234 &quot;cDAQ1Mod7&quot;" openNewPage="false">7: NI 9234 "cDAQ1Mod7"</max_link>
+</max_listitem>
+<max_listitem>
+<max_link name="#8: NI 9215 &quot;cDAQ1Mod8&quot;" openNewPage="false">8: NI 9215 "cDAQ1Mod8"</max_link>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+<max_link name="#NI PXIe-6356 &quot;PXI_Sim&quot;" openNewPage="false">NI PXIe-6356 "PXI_Sim"</max_link>
+</max_listitem>
+<max_listitem>
+<max_link name="#NI Simulated DAQ Device &quot;SimDev1&quot;" openNewPage="false">NI Simulated DAQ Device "SimDev1"</max_link>
+</max_listitem>
+<max_listitem>
+<max_link name="#USB2.0 HD UVC WebCam  &quot;cam0&quot;" openNewPage="false">USB2.0 HD UVC WebCam  "cam0"</max_link>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+
+Scales
+</max_listitem>
+<max_listitem>
+
+<max_link name="#Software" openNewPage="false">Software</max_link>
+<max_list format="nobullet">
+<max_listitem>
+IVI Driver Toolset 1.5
+</max_listitem>
+<max_listitem>
+IVI Engine 17.0
+</max_listitem>
+<max_listitem>
+LabVIEW 2017
+<max_list format="nobullet">
+<max_listitem>
+Database Connectivity Toolkit
+</max_listitem>
+<max_listitem>
+Report Generation Toolkit For Microsoft Office
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+LabVIEW Runtime 2014 SP1 f11
+</max_listitem>
+<max_listitem>
+LabVIEW Runtime 2014 SP1 f7 (64-bit)
+</max_listitem>
+<max_listitem>
+LabVIEW Runtime 2015 SP1 f9
+</max_listitem>
+<max_listitem>
+LabVIEW Runtime 2016 f5
+</max_listitem>
+<max_listitem>
+LabVIEW Runtime 2017 SP1 f2
+</max_listitem>
+<max_listitem>
+LabWindows/CVI Runtime 2017
+</max_listitem>
+<max_listitem>
+Measurement &amp; Automation Explorer 18.0
+</max_listitem>
+<max_listitem>
+Measurement Studio for VS2005
+<max_list format="nobullet">
+<max_listitem>
+DotNET
+<max_list format="nobullet">
+<max_listitem>
+Common
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+Measurement Studio for VS2008
+<max_list format="nobullet">
+<max_listitem>
+DotNET
+<max_list format="nobullet">
+<max_listitem>
+Common
+</max_listitem>
+<max_listitem>
+Common (64-bit)
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+NI I/O Trace 18.0
+</max_listitem>
+<max_listitem>
+NI PXI Platform Services Configuration 18.0
+</max_listitem>
+<max_listitem>
+NI PXI Platform Services Runtime 18.0
+</max_listitem>
+<max_listitem>
+NI System Configuration 18.0
+</max_listitem>
+<max_listitem>
+NI-DAQmx ADE Support 18.0
+</max_listitem>
+<max_listitem>
+NI-DAQmx Device Driver 18.0
+</max_listitem>
+<max_listitem>
+NI-DAQmx MAX Configuration 18.0
+</max_listitem>
+<max_listitem>
+NI-IMAQ
+<max_list format="nobullet">
+<max_listitem>
+Development Support 16.0
+</max_listitem>
+<max_listitem>
+Runtime 16.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+NI-IMAQ I/O
+<max_list format="nobullet">
+<max_listitem>
+Development Support 16.1
+</max_listitem>
+<max_listitem>
+Runtime 16.1
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+NI-IMAQdx
+<max_list format="nobullet">
+<max_listitem>
+Development Support 16.2
+</max_listitem>
+<max_listitem>
+Runtime 16.2
+<max_list format="nobullet">
+<max_listitem>
+USB3 Vision Driver
+</max_listitem>
+<max_listitem>
+GigE Vision Driver
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+NI-PAL 18.0
+</max_listitem>
+<max_listitem>
+<max_link name="#NI-RIO 16.0" openNewPage="false">NI-RIO 16.0</max_link>
+</max_listitem>
+<max_listitem>
+NI-USI 17.0
+</max_listitem>
+<max_listitem>
+<max_link name="#NI-VISA 17.0" openNewPage="false">NI-VISA 17.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+NIvisaic.exe
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+NI-VISA Runtime 17.0
+</max_listitem>
+<max_listitem>
+Vision Common Resources 2016
+<max_list format="nobullet">
+<max_listitem>
+Image Processing and Machine Vision
+</max_listitem>
+<max_listitem>
+Image Services
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+<max_br/>
+<max_br/>
+
+<max_provider_report name="My System" anchor="My System">
+<max_paragraph>
+<max_heading1>System Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Hostname</max_cell>
+<max_cell align="left" width="50%">LAPTOP-J3EJU94B</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">DNS Name</max_cell>
+<max_cell align="left" width="50%">LAPTOP-J3EJU94B</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">ASUSTeK COMPUTER INC.</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">UX360CA</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Serial Number</max_cell>
+<max_cell align="left" width="50%">G7N0CX02282327E     </max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Firmware Version</max_cell>
+<max_cell align="left" width="50%">UX360CA.202</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Hardware Revision</max_cell>
+<max_cell align="left" width="50%">1.0       </max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Operating System</max_cell>
+<max_cell align="left" width="50%">Microsoft Windows 10 Home</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">System Start Time</max_cell>
+<max_cell align="left" width="50%">8/13/2018 9:23:25 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Description</max_cell>
+<max_cell align="left" width="50%"/>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">System Configuration Web Access</max_cell>
+<max_cell align="left" width="50%">Local Only</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>System Resources</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Total Physical Memory</max_cell>
+<max_cell align="left" width="50%">7.87 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Free Physical Memory</max_cell>
+<max_cell align="left" width="50%">1.44 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Total Virtual Memory</max_cell>
+<max_cell align="left" width="50%">12.4 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Free Virtual Memory</max_cell>
+<max_cell align="left" width="50%">2.05 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Primary Disk Capacity</max_cell>
+<max_cell align="left" width="50%">476 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Primary Disk Free Space</max_cell>
+<max_cell align="left" width="50%">247 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">CPU Model</max_cell>
+<max_cell align="left" width="50%">Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>RIO Service Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Status</max_cell>
+<max_cell align="left" width="50%">Stopped</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Startup Type</max_cell>
+<max_cell align="left" width="50%">Manual</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>PXI System Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Resource Manager</max_cell>
+<max_cell align="left" width="50%">Automatically Selected</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Active Resource Manager</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Trigger Manager</max_cell>
+<max_cell align="left" width="50%">Automatically Selected</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Default Trigger Manager</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+</max_provider_report>
+<max_provider_report name="MyVoltageOutTask" anchor="MyVoltageOutTask">
+<max_anchor name="_daqmx_MyVoltageOutTask"/>
+<max_heading3>NI-DAQmx Task</max_heading3>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">Channels</max_cell>
+<max_cell align="left" colspan="2" width="62%">MyVoltageOutTask/VoltageOut_0, MyVoltageOutTask/VoltageOut_1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampQuant.SampMode</max_cell>
+<max_cell align="left" colspan="2" width="62%">Finite Samples</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampClk.ActiveEdge</max_cell>
+<max_cell align="left" colspan="2" width="62%">Rising</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampQuant.SampPerChan</max_cell>
+<max_cell align="left" colspan="2" width="62%">100</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampClk.Rate</max_cell>
+<max_cell align="left" colspan="2" width="62%">1000</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampTimingType</max_cell>
+<max_cell align="left" colspan="2" width="62%">Sample Clock</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">RegenMode</max_cell>
+<max_cell align="left" colspan="2" width="62%">Allow Regeneration</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampClk.Src</max_cell>
+<max_cell align="left" colspan="2" width="62%"/>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="38%">Channel</max_cell>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" width="24%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">VoltageOut_0</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.OutputType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Output</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.TermCfg</max_cell>
+<max_cell align="left" width="24%">RSE</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ao0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">VoltageOut_1</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.OutputType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Output</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.TermCfg</max_cell>
+<max_cell align="left" width="24%">RSE</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ao1</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="MyVoltageOutTask_0" anchor="MyVoltageOutTask_0">
+<max_anchor name="_daqmx_MyVoltageOutTask_0"/>
+<max_heading3>NI-DAQmx Task</max_heading3>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">Channels</max_cell>
+<max_cell align="left" colspan="2" width="62%">MyVoltageOutTask_0/VoltageOut</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampQuant.SampMode</max_cell>
+<max_cell align="left" colspan="2" width="62%">Finite Samples</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampClk.ActiveEdge</max_cell>
+<max_cell align="left" colspan="2" width="62%">Rising</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampQuant.SampPerChan</max_cell>
+<max_cell align="left" colspan="2" width="62%">100</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampClk.Rate</max_cell>
+<max_cell align="left" colspan="2" width="62%">1000</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampTimingType</max_cell>
+<max_cell align="left" colspan="2" width="62%">Sample Clock</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">RegenMode</max_cell>
+<max_cell align="left" colspan="2" width="62%">Allow Regeneration</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampClk.Src</max_cell>
+<max_cell align="left" colspan="2" width="62%"/>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="38%">Channel</max_cell>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" width="24%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">VoltageOut</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.OutputType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Output</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AO.TermCfg</max_cell>
+<max_cell align="left" width="24%">RSE</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ao0</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="MyVoltageTask" anchor="MyVoltageTask">
+<max_anchor name="_daqmx_MyVoltageTask"/>
+<max_heading3>NI-DAQmx Task</max_heading3>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">Channels</max_cell>
+<max_cell align="left" colspan="2" width="62%">MyVoltageTask/Voltage_0, MyVoltageTask/Voltage_1, MyVoltageTask/Voltage_2, MyVoltageTask/Voltage_3, MyVoltageTask/Voltage_4, MyVoltageTask/Voltage_5, MyVoltageTask/Voltage_6, MyVoltageTask/Voltage_7</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampQuant.SampMode</max_cell>
+<max_cell align="left" colspan="2" width="62%">Finite Samples</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampClk.ActiveEdge</max_cell>
+<max_cell align="left" colspan="2" width="62%">Rising</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampQuant.SampPerChan</max_cell>
+<max_cell align="left" colspan="2" width="62%">100</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampClk.Rate</max_cell>
+<max_cell align="left" colspan="2" width="62%">1000</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampTimingType</max_cell>
+<max_cell align="left" colspan="2" width="62%">Sample Clock</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">SampClk.Src</max_cell>
+<max_cell align="left" colspan="2" width="62%"/>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="38%">Channel</max_cell>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" width="24%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">Voltage_0</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.MeasType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.TermCfg</max_cell>
+<max_cell align="left" width="24%">Differential</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Input</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ai0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">Voltage_1</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.MeasType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.TermCfg</max_cell>
+<max_cell align="left" width="24%">Differential</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Input</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ai6</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">Voltage_2</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.MeasType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.TermCfg</max_cell>
+<max_cell align="left" width="24%">Differential</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Input</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ai1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">Voltage_3</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.MeasType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.TermCfg</max_cell>
+<max_cell align="left" width="24%">Differential</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Input</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ai2</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">Voltage_4</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.MeasType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.TermCfg</max_cell>
+<max_cell align="left" width="24%">Differential</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Input</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ai3</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">Voltage_5</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.MeasType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.TermCfg</max_cell>
+<max_cell align="left" width="24%">Differential</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Input</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ai4</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">Voltage_6</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.MeasType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.TermCfg</max_cell>
+<max_cell align="left" width="24%">Differential</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Input</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ai5</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" colspan="3" width="100%">Voltage_7</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.MeasType</max_cell>
+<max_cell align="left" width="24%">Voltage</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Voltage.Units</max_cell>
+<max_cell align="left" width="24%">Volts</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.TermCfg</max_cell>
+<max_cell align="left" width="24%">Differential</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Max</max_cell>
+<max_cell align="left" width="24%">10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">AI.Min</max_cell>
+<max_cell align="left" width="24%">-10</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">ChanType</max_cell>
+<max_cell align="left" width="24%">Analog Input</max_cell>
+</max_row>
+<max_row>
+<max_cell width="38%"/>
+<max_cell align="left" width="38%">PhysicalChanName</max_cell>
+<max_cell align="left" width="24%">PXI_Sim/ai7</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="2: NI PXIe-6361 &quot;PXI1Slot2&quot;" anchor="2: NI PXIe-6361 &quot;PXI1Slot2&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">PXI1Slot2</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI PXIe-6361</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">2</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Current Device Temperature</max_cell>
+<max_cell align="left" width="50%">0.0°C</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>External Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Recommended Next Calibration</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>Self-Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Device Temperature</max_cell>
+<max_cell align="left" width="50%">N/A</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_PXI1Slot2"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">PXIe-6361</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x7432C4C4</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">BusType</max_cell>
+<max_cell align="left" colspan="2" width="62%">PXIe</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">PXI.ChassisNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">PXI.SlotNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">2</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="NI cDAQ-9171 &quot;cDAQ2&quot;" anchor="NI cDAQ-9171 &quot;cDAQ2&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">cDAQ2</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI cDAQ-9171</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_cDAQ2"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">cDAQ-9171</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="1: NI 9219 &quot;cDAQ2Mod1&quot;" anchor="1: NI 9219 &quot;cDAQ2Mod1&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">cDAQ2Mod1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI 9219</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Current Device Temperature</max_cell>
+<max_cell align="left" width="50%">0.0°C</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>External Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Recommended Next Calibration</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_cDAQ2Mod1"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">NI 9219</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.ChassisDevName</max_cell>
+<max_cell align="left" colspan="2" width="62%">cDAQ2</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.SlotNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="NI cDAQ-9178 &quot;cDAQ1&quot;" anchor="NI cDAQ-9178 &quot;cDAQ1&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">cDAQ1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI cDAQ-9178</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_cDAQ1"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">cDAQ-9178</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="1: NI 9236 &quot;cDAQ1Mod1&quot;" anchor="1: NI 9236 &quot;cDAQ1Mod1&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">cDAQ1Mod1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI 9236</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Current Device Temperature</max_cell>
+<max_cell align="left" width="50%">0.0°C</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>External Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Recommended Next Calibration</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_cDAQ1Mod1"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">NI 9236</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.ChassisDevName</max_cell>
+<max_cell align="left" colspan="2" width="62%">cDAQ1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.SlotNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="2: NI 9213 &quot;cDAQ1Mod2&quot;" anchor="2: NI 9213 &quot;cDAQ1Mod2&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">cDAQ1Mod2</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI 9213</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">2</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Current Device Temperature</max_cell>
+<max_cell align="left" width="50%">0.0°C</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>External Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Recommended Next Calibration</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_cDAQ1Mod2"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">NI 9213</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.ChassisDevName</max_cell>
+<max_cell align="left" colspan="2" width="62%">cDAQ1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.SlotNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">2</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="3: NI 9472 &quot;cDAQ1Mod3&quot;" anchor="3: NI 9472 &quot;cDAQ1Mod3&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">cDAQ1Mod3</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI 9472</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">3</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_cDAQ1Mod3"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">NI 9472</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.ChassisDevName</max_cell>
+<max_cell align="left" colspan="2" width="62%">cDAQ1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.SlotNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">3</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="4: NI 9263 &quot;cDAQ1Mod4&quot;" anchor="4: NI 9263 &quot;cDAQ1Mod4&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">cDAQ1Mod4</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI 9263</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">4</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Current Device Temperature</max_cell>
+<max_cell align="left" width="50%">0.0°C</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>External Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Recommended Next Calibration</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_cDAQ1Mod4"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">NI 9263</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.ChassisDevName</max_cell>
+<max_cell align="left" colspan="2" width="62%">cDAQ1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.SlotNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">4</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="7: NI 9234 &quot;cDAQ1Mod7&quot;" anchor="7: NI 9234 &quot;cDAQ1Mod7&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">cDAQ1Mod7</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI 9234</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">7</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Current Device Temperature</max_cell>
+<max_cell align="left" width="50%">0.0°C</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>External Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Recommended Next Calibration</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_cDAQ1Mod7"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">NI 9234</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.ChassisDevName</max_cell>
+<max_cell align="left" colspan="2" width="62%">cDAQ1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.SlotNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">7</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="8: NI 9215 &quot;cDAQ1Mod8&quot;" anchor="8: NI 9215 &quot;cDAQ1Mod8&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">cDAQ1Mod8</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI 9215</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">8</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Current Device Temperature</max_cell>
+<max_cell align="left" width="50%">0.0°C</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>External Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Recommended Next Calibration</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_cDAQ1Mod8"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">NI 9215</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.ChassisDevName</max_cell>
+<max_cell align="left" colspan="2" width="62%">cDAQ1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">CompactDAQ.SlotNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">8</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="NI PXIe-6356 &quot;PXI_Sim&quot;" anchor="NI PXIe-6356 &quot;PXI_Sim&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">PXI_Sim</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI PXIe-6356</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Current Device Temperature</max_cell>
+<max_cell align="left" width="50%">0.0°C</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>External Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Recommended Next Calibration</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>Self-Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Device Temperature</max_cell>
+<max_cell align="left" width="50%">N/A</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_PXI_Sim"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">PXIe-6356</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x7436C4C4</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">BusType</max_cell>
+<max_cell align="left" colspan="2" width="62%">PXIe</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">PXI.ChassisNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">4294967295</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">PXI.SlotNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">4294967295</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="NI Simulated DAQ Device &quot;SimDev1&quot;" anchor="NI Simulated DAQ Device &quot;SimDev1&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">SimDev1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI Simulated DAQ Device</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Current Device Temperature</max_cell>
+<max_cell align="left" width="50%">0.0°C</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>External Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Recommended Next Calibration</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>Self-Calibration</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Calibration Date</max_cell>
+<max_cell align="left" width="50%">12/31/1903 8:00:00 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Device Temperature</max_cell>
+<max_cell align="left" width="50%">N/A</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_anchor name="_daqmx_SimDev1"/>
+<max_heading3/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="38%">Property</max_cell>
+<max_cell align="left" bold="true" colspan="2" width="62%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductType</max_cell>
+<max_cell align="left" colspan="2" width="62%">NI Simulated DAQ Device</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevSerialNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">DevIsSimulated</max_cell>
+<max_cell align="left" colspan="2" width="62%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">ProductNum</max_cell>
+<max_cell align="left" colspan="2" width="62%">0x7870</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="38%">BusType</max_cell>
+<max_cell align="left" colspan="2" width="62%">USB</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="USB2.0 HD UVC WebCam  &quot;cam0&quot;" anchor="USB2.0 HD UVC WebCam  &quot;cam0&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">cam0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">USB2.0 HD UVC WebCam</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">USB2.0 HD UVC WebCam </max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Serial Number</max_cell>
+<max_cell align="left" width="50%">CD2B96632548253D</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="Software" anchor="Software">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+<max_cell align="left" bold="true">Path</max_cell>
+</max_row>
+<max_row>
+<max_cell>CVI Runtime</max_cell>
+<max_cell>17.0.0.295</max_cell>
+<max_cell>The LabWindows/CVI Runtime is necessary to run executables or use DLLs you create with LabWindows/CVI, and it must be present on any target computer on which you want to run your executable program.</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64\CVIRTE.DLL</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-DAQmx Device Driver</max_cell>
+<max_cell>18.0.0f0</max_cell>
+<max_cell>NI-DAQmx Device Driver</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-DAQ</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-DAQmx ADE Support</max_cell>
+<max_cell>18.0.0</max_cell>
+<max_cell>NI-DAQmx Application Development Environment Support</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-DAQ</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-DAQmx MAX Configuration</max_cell>
+<max_cell>18.0.0</max_cell>
+<max_cell>NI-DAQmx MAX Configuration Support</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-DAQ</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-IMAQ</max_cell>
+<max_cell>16.0.0</max_cell>
+<max_cell>Driver software for NI 17xx smart cameras, as well as parallel digital and Camera Link image acquisition devices.</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-IMAQ</max_cell>
+</max_row>
+<max_row>
+<max_cell>Development Support 16.0.0</max_cell>
+<max_cell>16.0.0</max_cell>
+<max_cell>Development Support</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-IMAQ</max_cell>
+</max_row>
+<max_row>
+<max_cell>Runtime 16.0.0</max_cell>
+<max_cell>16.0.0</max_cell>
+<max_cell>Runtime</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-IMAQ</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-IMAQ I/O</max_cell>
+<max_cell>16.1.0</max_cell>
+<max_cell>Driver software for controlling reconfigurable input/output on certain image acquisition devices and real-time targets. For more information, refer to the NI Vision Acquisition Software Release Notes.</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-IMAQ IO</max_cell>
+</max_row>
+<max_row>
+<max_cell>Development Support 16.1.0</max_cell>
+<max_cell>16.1.0</max_cell>
+<max_cell>Development Support</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-IMAQ IO</max_cell>
+</max_row>
+<max_row>
+<max_cell>Runtime 16.1.0</max_cell>
+<max_cell>16.1.0</max_cell>
+<max_cell>Runtime</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-IMAQ IO</max_cell>
+</max_row>
+<max_row>
+<max_cell>Vision Common Resources</max_cell>
+<max_cell>16.0.1</max_cell>
+<max_cell>Runtime components required to deploy applications that use NI Vision image management functions, Image Display controls, or image shared variables.</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64\NiVisSvc.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>Image Processing and Machine Vision</max_cell>
+<max_cell>16.0.1.49152</max_cell>
+<max_cell>Image Processing and Machine Vision Library</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64\NiVision.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>Image Services</max_cell>
+<max_cell>16.0.1.49152</max_cell>
+<max_cell>Image Services Library</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64\NiVisSvc.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI I/O Trace</max_cell>
+<max_cell>18.0.0f0</max_cell>
+<max_cell>Monitors National Instruments API calls</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI IO Trace\NI IO Trace.exe</max_cell>
+</max_row>
+<max_row>
+<max_cell>IVI Engine</max_cell>
+<max_cell>17.0.0.f1</max_cell>
+<max_cell>IVI Instrument Driver Support Library</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64</max_cell>
+</max_row>
+<max_row>
+<max_cell>IVI Driver Toolset</max_cell>
+<max_cell>1.5</max_cell>
+<max_cell>IVI (Interchangeable Virtual Instruments) Driver Toolset</max_cell>
+<max_cell>C:\Program Files (x86)\IVI Foundation\VISA\WinNT</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW</max_cell>
+<max_cell>17.0.0</max_cell>
+<max_cell>Graphical Programming for Measurement &amp; Instrumentation</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\LabVIEW 2017\labview.exe</max_cell>
+</max_row>
+<max_row>
+<max_cell>Database Connectivity Toolkit</max_cell>
+<max_cell>17.0.0</max_cell>
+<max_cell>Database Connectivity Toolkit</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\LabVIEW 2017</max_cell>
+</max_row>
+<max_row>
+<max_cell>Report Generation Toolkit For Microsoft Office</max_cell>
+<max_cell>17.0.0</max_cell>
+<max_cell>Report Generation Toolkit For Microsoft Office</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\LabVIEW 2017</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW Runtime 2014 SP1 f11</max_cell>
+<max_cell>14.0.1</max_cell>
+<max_cell>LabVIEW Runtime</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\Shared\LabVIEW Run-Time\2014</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW Runtime 2014 SP1 f7 (64-bit)</max_cell>
+<max_cell>14.0.1</max_cell>
+<max_cell>LabVIEW Runtime</max_cell>
+<max_cell>C:\Program Files\National Instruments\Shared\LabVIEW Run-Time\2014</max_cell>
+</max_row>
+<max_row>
+<max_cell>Measurement &amp; Automation Explorer</max_cell>
+<max_cell>18.0.0f0</max_cell>
+<max_cell>Use Measurement &amp; Automation Explorer to manage your National Instruments products and services</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\MAX\nimax.exe</max_cell>
+</max_row>
+<max_row>
+<max_cell>Measurement Studio</max_cell>
+<max_cell>Visual Studio 2005 Support - See individual versions below.</max_cell>
+<max_cell>National Instruments Measurement Studio Tools for Visual Studio 2005</max_cell>
+<max_cell/>
+</max_row>
+<max_row>
+<max_cell>DotNET</max_cell>
+<max_cell> </max_cell>
+<max_cell>DotNET Software</max_cell>
+<max_cell> </max_cell>
+</max_row>
+<max_row>
+<max_cell>Common</max_cell>
+<max_cell>12.0.20.258</max_cell>
+<max_cell>Facilitates the exchange of data between the acquisition, analysis, and user interface portions of an application.</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\MeasurementStudioVS2005\DotNET\Assemblies\Current\NationalInstruments.Common.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>Measurement Studio</max_cell>
+<max_cell>Visual Studio 2008 Support - See individual versions below.</max_cell>
+<max_cell>National Instruments Measurement Studio Tools for Visual Studio 2008</max_cell>
+<max_cell/>
+</max_row>
+<max_row>
+<max_cell>DotNET</max_cell>
+<max_cell> </max_cell>
+<max_cell>DotNET Software</max_cell>
+<max_cell> </max_cell>
+</max_row>
+<max_row>
+<max_cell>Common</max_cell>
+<max_cell>13.5.35.173</max_cell>
+<max_cell>Facilitates the exchange of data between the acquisition, analysis, and user interface portions of an application.</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\MeasurementStudioVS2008\DotNET\Assemblies\Current\NationalInstruments.Common.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>Common (64-bit)</max_cell>
+<max_cell>13.5.35.173</max_cell>
+<max_cell>Facilitates the exchange of data between the acquisition, analysis, and user interface portions of an application.</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\MeasurementStudioVS2008\DotNET\Assemblies\Current\NationalInstruments.Common.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-USI</max_cell>
+<max_cell>17.0.0.6654</max_cell>
+<max_cell>NI Universal Storage Interface</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\Shared\USI</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-IMAQdx</max_cell>
+<max_cell>16.2.0</max_cell>
+<max_cell>Driver software for NI 177x smart cameras, as well as IEEE 1394, GigE Vision, DirectShow-compatible USB, USB3 Vision, and IP cameras.</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-IMAQdx</max_cell>
+</max_row>
+<max_row>
+<max_cell>Development Support 16.2.0</max_cell>
+<max_cell>16.2.0</max_cell>
+<max_cell>Development Support</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-IMAQdx</max_cell>
+</max_row>
+<max_row>
+<max_cell>Runtime 16.2.0</max_cell>
+<max_cell>16.2.0</max_cell>
+<max_cell>Runtime</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-IMAQdx</max_cell>
+</max_row>
+<max_row>
+<max_cell>USB3 Vision Driver</max_cell>
+<max_cell>16.1.0.49152</max_cell>
+<max_cell>USB3 Vision Driver</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64\niu3v.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>GigE Vision Driver</max_cell>
+<max_cell>1.9.2.49154</max_cell>
+<max_cell>High-Performance GigE Vision Driver</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64\nigev.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI PXI Platform Services Configuration</max_cell>
+<max_cell>18.0.0f0</max_cell>
+<max_cell>Configuration Support for NI PXI and PXIe Controllers and Chassis</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\PXI</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI PXI Platform Services Runtime</max_cell>
+<max_cell>18.0.0f0</max_cell>
+<max_cell>Runtime Support for NI PXI and PXIe Controllers and Chassis</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\PXI</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-RIO</max_cell>
+<max_cell>16.0.0</max_cell>
+<max_cell>NI-RIO Driver for Reconfigurable I/O products</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\NI-RIO</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-PAL Software</max_cell>
+<max_cell>18.0.0</max_cell>
+<max_cell>NI-PAL Library for Windows</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI System Configuration</max_cell>
+<max_cell>18.0.0f0</max_cell>
+<max_cell>Discover and configure systems and devices</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64\nisyscfg.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA</max_cell>
+<max_cell>17.0</max_cell>
+<max_cell>Virtual Instrument Software Architecture</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64\visa32.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>NIvisaic.exe</max_cell>
+<max_cell>16.0.0.49152</max_cell>
+<max_cell>VISA Interactive Control Utility</max_cell>
+<max_cell>C:\Program Files (x86)\IVI Foundation\VISA\WinNT\NIvisa\NIvisaic.exe</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA Runtime</max_cell>
+<max_cell>17.0</max_cell>
+<max_cell>Virtual Instrument Software Architecture</max_cell>
+<max_cell>C:\WINDOWS\SysWOW64\visa32.dll</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW Runtime 2015 SP1 f9</max_cell>
+<max_cell>15.0.1</max_cell>
+<max_cell>LabVIEW Runtime</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\Shared\LabVIEW Run-Time\2015</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW Runtime 2016 f5</max_cell>
+<max_cell>16.0.0</max_cell>
+<max_cell>LabVIEW Runtime</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\Shared\LabVIEW Run-Time\2016</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW Runtime 2017 SP1 f2</max_cell>
+<max_cell>17.0.1</max_cell>
+<max_cell>LabVIEW Runtime</max_cell>
+<max_cell>C:\Program Files (x86)\National Instruments\Shared\LabVIEW Run-Time\2017</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="NI-RIO 16.0" anchor="NI-RIO 16.0">
+<max_heading1>NI-RIO Settings</max_heading1>
+<max_heading2>RIO Server</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="25%">Port</max_cell>
+<max_cell/>
+</max_row>
+</max_table>
+<max_heading2>Remote Device Access</max_heading2>
+The remote device access list on this system is blank, which means that no remote systems have access to RIO devices on this system.
+</max_provider_report>
+<max_provider_report name="NI-VISA 17.0" anchor="NI-VISA 17.0">
+<max_heading1>VISA Options</max_heading1>
+<max_heading2>General Settings</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Property</max_cell>
+<max_cell bold="true" width="50%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Minimum Async Transfer</max_cell>
+<max_cell width="50%">512 Bytes</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Force peek/poke calls to appear in NI I/O Trace</max_cell>
+<max_cell width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">GPIB Interface: Use ibln to test device state</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">GPIB-VXI Interface: Auto find every GPIB-VXI</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">GPIB-VXI Interface: Retry after failure</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">PXI/PCI Interfaces</max_cell>
+<max_cell width="50%">Show only devices registered with VISA</max_cell>
+</max_row>
+</max_table>
+<max_heading2>List of Aliases</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Resource Name</max_cell>
+<max_cell bold="true" width="50%">Alias</max_cell>
+</max_row>
+</max_table>
+<max_heading2>Passports</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Name (Description)</max_cell>
+<max_cell bold="true" width="50%">Enabled</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiVi488.dll (NI-VISA Passport for GPIB)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViAsrl.dll (NI-VISA Passport for Serial)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViEnet.dll (NI-VISA Passport for TCPIP and VXI-11)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViEnetAsrl.dll (NI-VISA Passport for Enet-Serial)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViPxi.dll (NI-VISA Passport for PXI)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViRio.dll (NI-VISA Passport plug-in for NI-RIO)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViRpc.dll (NI-VISA Passport for remote NI-VISA)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiVisaTulip.dll (NI-VISA Passport for Tulip)</max_cell>
+<max_cell width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViUsb.dll (NI-VISA Passport for USB)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+</max_report>

@@ -1,0 +1,12 @@
+8/18/18:
+
+-removed text display for 'status' and instead just disable the controls on the UI while making a report
+-replaced Overwrite button w/ checkbox
+-tested on same machine after restart, works so far for HTML. Remove comments and then merge w/ master
+
+-works with different report types, just need to follow w/ test plan
+-removed commented code
+
+next steps:
+-follow test plan
+
