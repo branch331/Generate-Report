@@ -27,7 +27,7 @@
             </TextBlock>
         </Expander>
 
-        <Grid Name="subgrid" Grid.Row="1">
+        <Grid Name="subgrid" Grid.Row="1" IsEnabled="{Binding CanGenerateReport}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -46,21 +46,21 @@
         </Grid>
 
         <TextBlock Grid.Row="2" HorizontalAlignment="Left" Text="File Path" Margin="0,5,0,195" Width="55"/>
-        <TextBox x:Name="filePathBox" Grid.Row="2" Height="25" Width="515" Text="{Binding FilePath, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="0,25,0,175"></TextBox>
+        <TextBox x:Name="filePathBox" Grid.Row="2" Height="25" Width="515" Text="{Binding FilePath, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" IsEnabled ="{Binding CanGenerateReport}" HorizontalAlignment="Left" Margin="0,25,0,175"></TextBox>
 
-        <Button Margin="0,25,0,175" Grid.Row="2" Content="Browse" Click="OnBrowseClick" IsDefault="False" TabIndex="3" HorizontalAlignment="Right" Width="50" />
+        <Button Margin="0,25,0,175" Grid.Row="2" Content="Browse" Click="OnBrowseClick" IsDefault="False" IsEnabled="{Binding CanGenerateReport}" TabIndex="3" HorizontalAlignment="Right" Width="50" />
 
-        <ComboBox x:Name="ReportTypeBox" IsEditable="True" Text="Report Type (XML)" Margin="0,60,0,130" Grid.Row="2" HorizontalAlignment="Left" Height ="30" Width="200">
+        <ComboBox x:Name="ReportTypeBox" IsEditable="True" Text="Report Type (XML)" IsEnabled="{Binding CanGenerateReport}" Margin="0,60,0,130" Grid.Row="2" HorizontalAlignment="Left" Height ="30" Width="200">
             <ComboBoxItem >XML</ComboBoxItem>
             <ComboBoxItem >HTML</ComboBoxItem>
             <ComboBoxItem >Technical Support</ComboBoxItem>
         </ComboBox>
 
-        <ToggleButton Grid.Row="2" Margin="230,60,230,130" IsChecked="{Binding Overwrite}" Height="30" Width="100" >Overwrite?</ToggleButton>
+        <CheckBox Grid.Row="2" Margin="246,67,223.333,128.333" IsChecked="{Binding Overwrite}" IsEnabled="{Binding CanGenerateReport}" Height="30" Width="100" >Overwrite?</CheckBox>
 
-        <Button Margin="0,60,0,130" Grid.Row="2" Content="Generate Report" Height="30" Click="OnGenerateReportClick" IsDefault="False" TabIndex="3" HorizontalAlignment="Right" Width="200" />
-
+        <Button Margin="0,60,0,130" Grid.Row="2" Content="Generate Report" Height="30" Click="OnGenerateReportClick" IsEnabled="{Binding CanGenerateReport}" TabIndex="3" HorizontalAlignment="Right" Width="200" />
+        <!--
         <TextBlock Grid.Row="2" HorizontalAlignment="Left" Text="{Binding Status, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="362,98,-360,94" Width="568"/>
-
+        -->
     </Grid>
 </Window>

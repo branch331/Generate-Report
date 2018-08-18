@@ -43,8 +43,8 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             {
                 worker.reportType = NationalInstruments.SystemConfiguration.ReportType.Xml;
             }
-
             worker.GenerateReport(passwordBox.Password);
+
             //StatusBox.Text = "Generating Report...";
         }
     }

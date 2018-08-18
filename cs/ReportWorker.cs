@@ -8,9 +8,15 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 {
     class ReportWorker : INotifyPropertyChanged
     {
-        private string status;
-        private bool exception;
+        //private string status;
+        //private bool exception;
+        private bool canGenerateReport;
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public ReportWorker()
+        {
+            CanGenerateReport = true;
+        }
 
         public string Target
         {
@@ -36,7 +42,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             get;
             set;
         }
-
+        /*
         public string Status
         {
             get { return status; }
@@ -49,6 +55,19 @@ namespace NationalInstruments.Examples.GenerateMAXReport
                 }
             }
         }
+        */
+        public bool CanGenerateReport
+        {
+            get { return canGenerateReport; }
+            set
+            {
+                if (canGenerateReport != value)
+                {
+                    canGenerateReport = value;
+                    NotifyPropertyChanged("CanGenerateReport");
+                }
+            }
+        }
 
         public ReportType reportType
         {
@@ -56,6 +75,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             set;
         }
 
+        /*
         private void worker_RunWorkerCompleted(object o, RunWorkerCompletedEventArgs e)
         {
             if (!exception)
@@ -67,12 +87,14 @@ namespace NationalInstruments.Examples.GenerateMAXReport
                 Status = "Error Generating Report.";
             }
         }
+        */
 
         public void GenerateReport(string password)
         {
             BackgroundWorker worker = new BackgroundWorker();
             worker.DoWork += new DoWorkEventHandler(delegate(object o, DoWorkEventArgs args)
             {
+                CanGenerateReport = false;
                 try
                 {
                     SystemConfiguration.SystemConfiguration session = new SystemConfiguration.SystemConfiguration(Target, Username, password);
@@ -82,13 +104,17 @@ namespace NationalInstruments.Examples.GenerateMAXReport
                 {
                     string errorMessage = string.Format("GenerateMAXReport threw a System Configuration Exception.\n\nError Code: {0:X}\n{1}", ex.ErrorCode, ex.Message);
                     MessageBox.Show(errorMessage, "System Configuration Exception");
-                    exception = true;
+                    //exception = true;
+                }
+                finally
+                {
+                    CanGenerateReport = true;
                 }
             }
             );
-            worker.RunWorkerCompleted += worker_RunWorkerCompleted;
-            Status = "Generating Report...";
-            exception = false;
+            //worker.RunWorkerCompleted += worker_RunWorkerCompleted;
+            //Status = "Generating Report...";
+            //exception = false;
             worker.RunWorkerAsync();
         }
     
