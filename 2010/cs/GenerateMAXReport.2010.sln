@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateMAXReport.2012", "GenerateMAXReport.2012.csproj", "{B59FAC82-6326-4548-A953-A839C17A402B}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateMAXReport.2010", "GenerateMAXReport.2010.csproj", "{B59FAC82-6326-4548-A953-A839C17A402B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
