@@ -5,4 +5,4 @@
 
 next steps:
 -test on other computer since sys config driver is broken (labview example also doesnt make report)
-
+-remove commented sections if works
