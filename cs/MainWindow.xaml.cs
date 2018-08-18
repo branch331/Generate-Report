@@ -1,6 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using Microsoft.Win32;
+using NationalInstruments.SystemConfiguration;
 
 namespace NationalInstruments.Examples.GenerateMAXReport
 {
@@ -29,20 +30,21 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 
             if (ReportTypeBox.Text == "XML")
             {
-                worker.reportType = NationalInstruments.SystemConfiguration.ReportType.Xml;
+                worker.reportType = ReportType.Xml;
             }
             else if (ReportTypeBox.Text == "HTML")
             {
-                worker.reportType = NationalInstruments.SystemConfiguration.ReportType.Html;
+                worker.reportType = ReportType.Html;
             }
             else if (ReportTypeBox.Text == "Technical Support")
             {
-                worker.reportType = NationalInstruments.SystemConfiguration.ReportType.TechnicalSupportZip;
+                worker.reportType = ReportType.TechnicalSupportZip;
             }
             else
             {
-                worker.reportType = NationalInstruments.SystemConfiguration.ReportType.Xml;
+                worker.reportType = ReportType.Xml;
             }
+
             worker.GenerateReport(passwordBox.Password);
         }
     }
