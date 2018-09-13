@@ -37,3 +37,6 @@ C:\Users\brand\Documents\GitHub\Generate-Report\cs\obj\Debug\NationalInstruments
 C:\Users\brand\Documents\GitHub\Generate-Report\2012\cs\bin\Debug\NationalInstruments.Examples.GenerateMAXReport.exe.config
 C:\Users\brand\Documents\GitHub\Generate-Report\2012\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport.exe
 C:\Users\brand\Documents\GitHub\Generate-Report\2012\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport.pdb
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\2012\cs\bin\Debug\NationalInstruments.Examples.GenerateMAXReport.exe.config
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\2012\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport.exe
+C:\Users\bnguyen\Documents\GitHub\Generate-Report\2012\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport.pdb
