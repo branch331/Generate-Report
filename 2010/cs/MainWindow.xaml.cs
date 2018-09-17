@@ -30,19 +30,19 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 
             if (ReportTypeBox.Text == "XML")
             {
-                worker.reportType = ReportType.Xml;
+                worker.ReportType = ReportType.Xml;
             }
             else if (ReportTypeBox.Text == "HTML")
             {
-                worker.reportType = ReportType.Html;
+                worker.ReportType = ReportType.Html;
             }
             else if (ReportTypeBox.Text == "Technical Support")
             {
-                worker.reportType = ReportType.TechnicalSupportZip;
+                worker.ReportType = ReportType.TechnicalSupportZip;
             }
             else
             {
-                worker.reportType = ReportType.Xml;
+                worker.ReportType = ReportType.Xml;
             }
 
             worker.GenerateReport(passwordBox.Password);

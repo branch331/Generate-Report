@@ -53,7 +53,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             }
         }
 
-        public ReportType reportType
+        public ReportType ReportType
         {
             get;
             set;
@@ -68,7 +68,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
                 try
                 {
                     SystemConfiguration.SystemConfiguration session = new SystemConfiguration.SystemConfiguration(Target, Username, password);
-                    session.GenerateMAXReport(reportType, FilePath, Overwrite); 
+                    session.GenerateMAXReport(ReportType, FilePath, Overwrite); 
                 }
                 catch (SystemConfigurationException ex)
                 {
