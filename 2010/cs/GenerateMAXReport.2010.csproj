@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B59FAC82-6326-4548-A953-A839C17A402B}</ProjectGuid>
+    <ProjectGuid>{B59FAC82-6326-4548-A953-A839C17A402C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NationalInstruments.Examples.GenerateMAXReport</RootNamespace>

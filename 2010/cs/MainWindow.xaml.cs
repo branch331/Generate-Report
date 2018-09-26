@@ -28,11 +28,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
         private void OnGenerateReportClick(object sender, RoutedEventArgs e)
         {
 
-            if (ReportTypeBox.Text == "XML")
-            {
-                worker.ReportType = ReportType.Xml;
-            }
-            else if (ReportTypeBox.Text == "HTML")
+            if (ReportTypeBox.Text == "HTML")
             {
                 worker.ReportType = ReportType.Html;
             }
