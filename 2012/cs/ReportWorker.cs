@@ -6,7 +6,7 @@ using NationalInstruments.SystemConfiguration;
 
 namespace NationalInstruments.Examples.GenerateMAXReport
 {
-    class ReportWorker : INotifyPropertyChanged // Internal class
+    internal class ReportWorker : INotifyPropertyChanged 
     {
         private bool canGenerateReport;
         public event PropertyChangedEventHandler PropertyChanged;
