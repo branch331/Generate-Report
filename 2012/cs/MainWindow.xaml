@@ -58,7 +58,7 @@
             <ComboBoxItem >Technical Support</ComboBoxItem>
         </ComboBox>
 
-        <CheckBox Grid.Row="2" Margin="250,87,219.333,113" IsChecked="{Binding Overwrite}" IsEnabled="{Binding CanGenerateReport}" >Overwrite?</CheckBox>
+        <CheckBox Grid.Row="2" Margin="244,87,225.333,113" IsChecked="{Binding Overwrite}" IsEnabled="{Binding CanGenerateReport}" >Overwrite?</CheckBox>
 
         <Button Margin="0,82,0.333,118" Grid.Row="2" Content="Generate Report" Click="OnGenerateReportClick" IsEnabled="{Binding CanGenerateReport}" TabIndex="3" HorizontalAlignment="Right" Width="200" />
 

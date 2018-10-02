@@ -6,7 +6,7 @@ using NationalInstruments.SystemConfiguration;
 
 namespace NationalInstruments.Examples.GenerateMAXReport
 {
-    class ReportWorker : INotifyPropertyChanged // Internal class
+    internal class ReportWorker : INotifyPropertyChanged 
     {
         private bool canGenerateReport;
         public event PropertyChangedEventHandler PropertyChanged;
@@ -68,7 +68,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
                 try
                 {
                     SystemConfiguration.SystemConfiguration session = new SystemConfiguration.SystemConfiguration(Target, Username, password);
-                    session.GenerateMAXReport(ReportType, FilePath, Overwrite);
+                    session.GenerateMAXReport(ReportType, FilePath, Overwrite); 
                 }
                 catch (SystemConfigurationException ex)
                 {
@@ -83,7 +83,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             );
             worker.RunWorkerAsync();
         }
-
+    
 
         protected virtual void NotifyPropertyChanged(string propertyName)
         {

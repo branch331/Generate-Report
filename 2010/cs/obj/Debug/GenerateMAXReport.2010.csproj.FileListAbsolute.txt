@@ -21,3 +21,4 @@ C:\Users\bnguyen\Documents\GitHub\Generate-Report\2010\cs\obj\Debug\NationalInst
 C:\Users\bnguyen\Documents\GitHub\Generate-Report\2010\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport_MarkupCompile.lref
 C:\Users\bnguyen\Documents\GitHub\Generate-Report\2010\cs\obj\Debug\MainWindow.baml
 C:\Users\bnguyen\Documents\GitHub\Generate-Report\2010\cs\obj\Debug\NationalInstruments.Examples.GenerateMAXReport.g.resources
+C:\Users\brand\Documents\GitHub\Generate-Report\2010\cs\obj\Debug\GenerateMAXReport.2010.csprojResolveAssemblyReference.cache
