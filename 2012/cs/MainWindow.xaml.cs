@@ -41,6 +41,11 @@ namespace NationalInstruments.Examples.GenerateMAXReport
                 worker.ReportType = ReportType.Xml;
             }
 
+            if (string.IsNullOrEmpty(filePathBox.Text))
+            {
+                filePathBox.Text = System.IO.Path.GetTempPath() + "Report" + worker.ReportType; //FIX THIS
+            }
+
             worker.GenerateReport(passwordBox.Password);
         }
     }
