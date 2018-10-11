@@ -20,7 +20,7 @@
 <Bold>Requirements:</Bold> NI System Configuration, NI MAX
 <Bold>Instructions:</Bold>
 1. Select the <Bold>Target</Bold>. Enter <Bold>User Name</Bold> and <Bold>Password</Bold> if necessary.
-2. Select <Bold>Report Type</Bold>. 
+2. Select <Bold>Report Type</Bold>.
 3. Enter <Bold>File Path</Bold> for report to be stored.
     <Bold>Note:</Bold> File path MUST end with .html for HTML files, .xml for XML files, and .zip for Technical Report.
 4. Click on <Bold>Generate Report</Bold> to generate a MAX report.
@@ -51,7 +51,7 @@
         <Button Margin="0,28,0.333,175" Grid.Row="2" Content="Browse" Click="OnBrowseClick" IsDefault="False" IsEnabled="{Binding CanGenerateReport}" TabIndex="3" HorizontalAlignment="Right" Width="50" />
 
         <TextBlock Grid.Row="2" HorizontalAlignment="Left" Text="Report Type" Margin="0,62,0,152" Width="71"/>
-        
+
         <ComboBox x:Name="ReportTypeBox" IsEditable="True" Text="Report Type (HTML)" IsEnabled="{Binding CanGenerateReport}" Margin="0,82,0,118" Grid.Row="2" HorizontalAlignment="Left" Width="200">
             <ComboBoxItem >HTML</ComboBoxItem>
             <ComboBoxItem >XML</ComboBoxItem>

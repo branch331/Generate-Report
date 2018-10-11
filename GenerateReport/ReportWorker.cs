@@ -6,7 +6,7 @@ using NationalInstruments.SystemConfiguration;
 
 namespace NationalInstruments.Examples.GenerateMAXReport
 {
-    internal class ReportWorker : INotifyPropertyChanged 
+    internal class ReportWorker : INotifyPropertyChanged
     {
         /// <summary>
         /// Uses the GenerateReport method to create a background worker to generate a MAX report, based on file path and file type.
@@ -71,7 +71,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
                 try
                 {
                     SystemConfiguration.SystemConfiguration session = new SystemConfiguration.SystemConfiguration(Target, Username, password);
-                    session.GenerateMAXReport(ReportType, FilePath, Overwrite); 
+                    session.GenerateMAXReport(ReportType, FilePath, Overwrite);
                 }
                 catch (SystemConfigurationException ex)
                 {

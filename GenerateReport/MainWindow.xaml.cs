@@ -24,7 +24,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             fileExplorer.Title = "Choose a report directory and filename";
             fileExplorer.CheckFileExists = false;
             // Restrict file type of file dialog. For instance, the filter for XML is: "XML files (*.xml)|*.xml".
-            fileExplorer.Filter = reportTypeExtension + " files (*." + reportTypeExtension + ")|*." + reportTypeExtension; 
+            fileExplorer.Filter = reportTypeExtension + " files (*." + reportTypeExtension + ")|*." + reportTypeExtension;
             fileExplorer.ShowDialog();
             filePathBox.Text = fileExplorer.FileName;
         }
@@ -32,10 +32,10 @@ namespace NationalInstruments.Examples.GenerateMAXReport
         private void OnGenerateReportClick(object sender, RoutedEventArgs e)
         {
             worker.ReportType = CheckReportType();
-           
+
             if (string.IsNullOrEmpty(filePathBox.Text))
             {
-                filePathBox.Text = System.IO.Path.GetTempPath() + "MAXReport." + reportTypeExtension; 
+                filePathBox.Text = System.IO.Path.GetTempPath() + "MAXReport." + reportTypeExtension;
             }
 
             worker.GenerateReport(passwordBox.Password);
