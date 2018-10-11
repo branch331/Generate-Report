@@ -7,6 +7,9 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 {
     public partial class MainWindow : Window
     {
+        private ReportWorker worker;
+        private string reportTypeExtension;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -14,12 +17,9 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             mainGrid.DataContext = worker;
         }
 
-        private ReportWorker worker;
-        private string reportTypeExtension;
-
         private void OnBrowseClick(object sender, RoutedEventArgs e)
         {
-            ReturnReportType();
+            CheckReportType();
             OpenFileDialog fileExplorer = new OpenFileDialog();
             fileExplorer.Title = "Choose a report directory and filename";
             fileExplorer.CheckFileExists = false;
@@ -31,7 +31,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 
         private void OnGenerateReportClick(object sender, RoutedEventArgs e)
         {
-            worker.ReportType = ReturnReportType();
+            worker.ReportType = CheckReportType();
            
             if (string.IsNullOrEmpty(filePathBox.Text))
             {
@@ -41,7 +41,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             worker.GenerateReport(passwordBox.Password);
         }
 
-        private ReportType ReturnReportType()
+        private ReportType CheckReportType()
         {
             if (ReportTypeBox.Text == "XML")
             {
