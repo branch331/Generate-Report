@@ -52,7 +52,7 @@
 
         <TextBlock Grid.Row="2" HorizontalAlignment="Left" Text="Report Type" Margin="0,62,0,152" Width="71"/>
 
-        <ComboBox x:Name="ReportTypeBox" IsEditable="True" Text="Report Type (HTML)" IsEnabled="{Binding CanGenerateReport}" Margin="0,82,0,118" Grid.Row="2" HorizontalAlignment="Left" Width="200">
+        <ComboBox x:Name="ReportTypeBox" IsEditable="True" Text="Report Type (HTML)" IsEnabled="{Binding CanGenerateReport}" Margin="0,82,0,118" Grid.Row="2" HorizontalAlignment="Left" Width="200" SelectionChanged="ReportTypeBox_SelectionChanged">
             <ComboBoxItem >HTML</ComboBoxItem>
             <ComboBoxItem >XML</ComboBoxItem>
             <ComboBoxItem >Technical Support</ComboBoxItem>

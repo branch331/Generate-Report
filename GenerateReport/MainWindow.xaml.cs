@@ -8,7 +8,8 @@ namespace NationalInstruments.Examples.GenerateMAXReport
     public partial class MainWindow : Window
     {
         private ReportWorker worker;
-        private string reportTypeExtension;
+        private ReportType reportType = ReportType.Html;
+        private string reportTypeExtension = "html";
 
         public MainWindow()
         {
@@ -19,7 +20,6 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 
         private void OnBrowseClick(object sender, RoutedEventArgs e)
         {
-            GetReportType(); // Get Report Type to coerce Browse window to allow only the specified file type.
             OpenFileDialog fileExplorer = new OpenFileDialog();
             fileExplorer.Title = "Choose a report directory and filename";
             fileExplorer.CheckFileExists = false;
@@ -31,7 +31,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 
         private void OnGenerateReportClick(object sender, RoutedEventArgs e)
         {
-            worker.ReportType = GetReportType();
+            worker.ReportType = reportType;
 
             if (string.IsNullOrEmpty(filePathBox.Text))
             {
@@ -41,22 +41,26 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             worker.GenerateReport(passwordBox.Password);
         }
 
-        private ReportType GetReportType()
+        private void ReportTypeBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (ReportTypeBox.Text == "XML")
+            // A SelectionChanged event alone will not reflect the newly selected option.
+            // We must explicitly obtain the text in ReportTypeBox for the new selection.
+            string reportTypeText = (e.AddedItems[0] as ComboBoxItem).Content as string;
+
+            if (reportTypeText == "XML")
             {
+                reportType = ReportType.Xml;
                 reportTypeExtension = "xml";
-                return ReportType.Xml;
             }
-            else if (ReportTypeBox.Text == "Technical Support")
+            else if (reportTypeText == "Technical Support")
             {
+                reportType = ReportType.TechnicalSupportZip;
                 reportTypeExtension = "zip";
-                return ReportType.TechnicalSupportZip;
             }
             else
             {
+                reportType = ReportType.Html;
                 reportTypeExtension = "html";
-                return ReportType.Html;
             }
         }
     }
