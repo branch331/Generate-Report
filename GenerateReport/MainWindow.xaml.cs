@@ -19,7 +19,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 
         private void OnBrowseClick(object sender, RoutedEventArgs e)
         {
-            CheckReportType();
+            GetReportType(); // Get Report Type to coerce Browse window to allow only the specified file type.
             OpenFileDialog fileExplorer = new OpenFileDialog();
             fileExplorer.Title = "Choose a report directory and filename";
             fileExplorer.CheckFileExists = false;
@@ -31,7 +31,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
 
         private void OnGenerateReportClick(object sender, RoutedEventArgs e)
         {
-            worker.ReportType = CheckReportType();
+            worker.ReportType = GetReportType();
 
             if (string.IsNullOrEmpty(filePathBox.Text))
             {
@@ -41,7 +41,7 @@ namespace NationalInstruments.Examples.GenerateMAXReport
             worker.GenerateReport(passwordBox.Password);
         }
 
-        private ReportType CheckReportType()
+        private ReportType GetReportType()
         {
             if (ReportTypeBox.Text == "XML")
             {

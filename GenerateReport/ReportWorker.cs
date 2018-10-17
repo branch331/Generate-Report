@@ -6,11 +6,11 @@ using NationalInstruments.SystemConfiguration;
 
 namespace NationalInstruments.Examples.GenerateMAXReport
 {
+    /// <summary>
+    /// Uses the GenerateReport method to create a background worker to generate a MAX report, based on file path and file type.
+    /// </summary>
     internal class ReportWorker : INotifyPropertyChanged
     {
-        /// <summary>
-        /// Uses the GenerateReport method to create a background worker to generate a MAX report, based on file path and file type.
-        /// </summary>
         private bool canGenerateReport;
         public event PropertyChangedEventHandler PropertyChanged;
 
